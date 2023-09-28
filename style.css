@@ -125,7 +125,7 @@
 }
 
 /* ********************** */
-/* HEADER SECTION */
+/* IMAGE BOX SECTION */
 /* ********************** */
 
 .section-images {
@@ -158,4 +158,32 @@
 
 .image-text {
   text-align: center;
+}
+
+/* ********************** */
+/* QUOTE SECTION */
+/* ********************** */
+
+.section-quote {
+  /* padding: 48px 0 96px 0; */
+  background-color: #e5e7eb;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 250px;
+}
+
+.quote-customer {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
 }
