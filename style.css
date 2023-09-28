@@ -10,19 +10,28 @@
 /* ********************** */
 
 .navigation {
+  background-color: #1f2937;
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
 
   height: 96px;
-  padding: 0 48px;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  padding: 0 32px;
+  /* padding: 48px 0 96px 0; */
 }
 
 .nav-logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 700;
+  max-width: 1000px;
 }
 
 .main-nav-list {
@@ -39,6 +48,7 @@
   text-decoration: none;
   color: #adadad;
   transition: all 0.3s;
+  font-size: 18px;
 }
 
 .main-nav-link:hover,
@@ -46,57 +56,29 @@
   color: #fff;
 }
 
-/* .main-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 8px;
-  width: 800px;
-}
-
-.nav-logo {
-  font-size: 24px;
-  color: #f9faf8;
-  font-weight: 700;
-}
-
-.nav-list {
-  display: flex;
-  gap: 16px;
-}
-
-.left-nav,
-.right-nav {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links a {
-  color: #adadad;
-  text-decoration: none;
-} */
-
-/* 
-**********************
-HEADER
-**********************
-*/
+/* ********************** */
+/* HEADER SECTION */
+/* ********************** */
 
 .section-header {
   background-color: #1f2937;
+  padding: 48px 0 96px 0;
 }
 
 .header {
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 48px;
+  min-height: 250px;
+
+  padding: 0 32px;
 }
 
 .header-left {
   display: flex;
   flex-direction: column;
+  gap: 12px;
   flex: 1;
 }
 
@@ -108,12 +90,52 @@ HEADER
 .primary-heading {
   color: #fff;
   font-size: 48px;
+  font-weight: 900;
 }
 
 .header-text {
   color: #fff;
+  font-size: 18px;
+}
+
+.header-right {
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 125px;
+  text-align: center;
+}
+
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex: 1;
+  background-color: #adadad;
+  border-radius: 8px;
 }
 
 .placeholder-text {
   color: #fff;
+}
+
+/* ********************** */
+/* HEADER SECTION */
+/* ********************** */
+
+.section-images {
+  padding: 48px 0 96px 0;
+}
+
+.image-header {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
 }
